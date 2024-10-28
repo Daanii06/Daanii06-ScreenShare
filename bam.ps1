@@ -38,12 +38,12 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Red " ██████╗  █████╗  █████╗ ███╗   ██╗██╗██╗    ███████╗███████╗ ";
-Write-Host -ForegroundColor red " ██╔══██╗██╔══██╗██╔══██╗████╗  ██║██║██║    ██╔════╝██╔════╝ ";
+Write-Host -ForegroundColor White " ██████╗  █████╗  █████╗ ███╗   ██╗██╗██╗    ███████╗███████╗ ";
+Write-Host -ForegroundColor White " ██╔══██╗██╔══██╗██╔══██╗████╗  ██║██║██║    ██╔════╝██╔════╝ ";
 Write-Host -ForegroundColor White " ██║  ██║███████║███████║██╔██╗ ██║██║██║    ███████╗███████╗ ";
 Write-Host -ForegroundColor White " ██║  ██║██╔══██║██╔══██║██║╚██╗██║██║██║    ╚════██║╚════██║ ";
-Write-Host -ForegroundColor Red " ██████╔╝██║  ██║██║  ██║██║ ╚████║██║██║    ███████║███████║ ";
-Write-Host -ForegroundColor red " ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝    ╚══════╝╚══════╝ ";
+Write-Host -ForegroundColor White " ██████╔╝██║  ██║██║  ██║██║ ╚████║██║██║    ███████║███████║ ";
+Write-Host -ForegroundColor White " ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝    ╚══════╝╚══════╝ ";
 
 
 
