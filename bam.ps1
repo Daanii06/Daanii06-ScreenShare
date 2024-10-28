@@ -38,18 +38,17 @@ Clear-Host
 
 Write-Host "";
 Write-Host "";
-Write-Host -ForegroundColor Green " ██████╗  █████╗  █████╗ ███╗   ██╗██╗██╗ ██████╗  ██████╗         ███████╗ ██████╗██████╗ ███████╗███████╗███╗   ██╗███████╗██╗  ██╗ █████╗ ██████╗ ███████╗ ";
-Write-Host -ForegroundColor Green " ██╔══██╗██╔══██╗██╔══██╗████╗  ██║██║██║██╔═████╗██╔════╝         ██╔════╝██╔════╝██╔══██╗██╔════╝██╔════╝████╗  ██║██╔════╝██║  ██║██╔══██╗██╔══██╗██╔════╝";
-Write-Host -ForegroundColor Green " ██║  ██║███████║███████║██╔██╗ ██║██║██║██║██╔██║███████╗         ███████╗██║     ██████╔╝█████╗  █████╗  ██╔██╗ ██║███████╗███████║███████║██████╔╝█████╗ "; 
-Write-Host -ForegroundColor Green " ██║  ██║██╔══██║██╔══██║██║╚██╗██║██║██║████╔╝██║██╔═══██╗        ╚════██║██║     ██╔══██╗██╔══╝  ██╔══╝  ██║╚██╗██║╚════██║██╔══██║██╔══██║██╔══██╗██╔══╝  ";
-Write-Host -ForegroundColor Green " ██████╔╝██║  ██║██║  ██║██║ ╚████║██║██║╚██████╔╝╚██████╔╝        ███████║╚██████╗██║  ██║███████╗███████╗██║ ╚████║███████║██║  ██║██║  ██║██║  ██║███████╗ ";
-Write-Host -ForegroundColor Green " ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝ ╚═════╝  ╚═════╝         ╚══════╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ";
-
+Write-Host -ForegroundColor Red " ██████╗  █████╗  █████╗ ███╗   ██╗██╗██╗    ███████╗███████╗ ";
+Write-Host -ForegroundColor Red " ██╔══██╗██╔══██╗██╔══██╗████╗  ██║██║██║    ██╔════╝██╔════╝ ";
+Write-Host -ForegroundColor Red " ██║  ██║███████║███████║██╔██╗ ██║██║██║    ███████╗███████╗ ";
+Write-Host -ForegroundColor Red " ██║  ██║██╔══██║██╔══██║██║╚██╗██║██║██║    ╚════██║╚════██║ ";
+Write-Host -ForegroundColor Red " ██████╔╝██║  ██║██║  ██║██║ ╚████║██║██║    ███████║███████║ ";
+Write-Host -ForegroundColor Red " ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝    ╚══════╝╚══════╝ ";
 
 
 
 Write-Host "";
-Write-Host -ForegroundColor Magenta " Joshua is great";
+Write-Host -ForegroundColor Magenta " ScreenShareKing";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
